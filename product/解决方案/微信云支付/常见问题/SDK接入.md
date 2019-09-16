@@ -7,4 +7,5 @@
 ## 刷卡支付接口
 
 问题：刷卡支付接口的OrderClient里的machine_no哪里获取的
+
 回答：机器的唯一标识id，如windows电脑就是mac地址， 对接方可以使用对应系统的api接口获取， 如是windows平台，使用windows api去获取机器mac地址； 这个字段云支付不强制校验内容但一定要填。
